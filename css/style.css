@@ -6,21 +6,41 @@ body {
 
 #buttons {
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sound-button {
-  margin: 5px;
-  padding: 10px 20px;
+  display: block;
+  width: 80%;
+  max-width: 300px;
+  margin: 8px 0;
+  padding: 14px;
   font-size: 1rem;
+  min-height: 44px;
 }
 
 #player-controls {
   margin-top: 20px;
 }
 
+#audioPlayer {
+  display: block;
+  width: 80%;
+  max-width: 300px;
+  margin: 0 auto 10px;
+}
+
+.control-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
 .control-buttons button {
-  margin: 0 5px;
-  padding: 5px 10px;
+  padding: 10px 16px;
+  min-height: 44px;
 }
 
 .home-button {
