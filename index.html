@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Singaseong SFX</title>
+  <link rel="icon" href="src/favicon.ico" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1>Singaseong SFX</h1>
+  <div id="buttons">
+    <button class="sound-button" data-sound="src/sounds/NatureMorningBirds.mp3">Nature Morning Birds</button>
+    <button class="sound-button" data-sound="src/sounds/buzzer.mp3">Buzzer</button>
+    <button class="sound-button" data-sound="src/sounds/clapping.wav">Clapping</button>
+    <button class="sound-button" data-sound="src/sounds/fart.wav">Fart</button>
+    <button class="sound-button" data-sound="src/sounds/police.mp3">Police</button>
+    <button class="sound-button" data-sound="src/sounds/singingbowl_01.mp3">Singing Bowl</button>
+    <button class="sound-button" data-sound="src/sounds/soccer_whistle.mp3">Soccer Whistle</button>
+  </div>
+  <div id="player-controls">
+    <audio id="audioPlayer" controls></audio>
+    <div class="control-buttons">
+      <button id="playBtn">Play</button>
+      <button id="pauseBtn">Pause</button>
+      <button id="stopBtn">Stop</button>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
