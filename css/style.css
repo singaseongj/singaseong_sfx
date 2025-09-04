@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+#buttons {
+  margin-bottom: 20px;
+}
+
+.sound-button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+#player-controls {
+  margin-top: 20px;
+}
+
+.control-buttons button {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
