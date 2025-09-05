@@ -1,0 +1,9 @@
+{
+  "name": "singaseong_sfx",
+  "version": "1.0.0",
+  "description": "Simple soundboard for royalty-free sound effects.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  }
+}
