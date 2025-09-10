@@ -26,7 +26,16 @@ document.getElementById('stopBtn').addEventListener('click', () => {
 
 const loopToggleBtn = document.getElementById('loopToggleBtn');
 loopToggleBtn.textContent = 'Repeat: On';
+loopToggleBtn.classList.add('on');
 loopToggleBtn.addEventListener('click', () => {
   audioPlayer.loop = !audioPlayer.loop;
-  loopToggleBtn.textContent = audioPlayer.loop ? 'Repeat: On' : 'Repeat: Off';
+  if (audioPlayer.loop) {
+    loopToggleBtn.textContent = 'Repeat: On';
+    loopToggleBtn.classList.add('on');
+    loopToggleBtn.classList.remove('off');
+  } else {
+    loopToggleBtn.textContent = 'Repeat: Off';
+    loopToggleBtn.classList.add('off');
+    loopToggleBtn.classList.remove('on');
+  }
 });
