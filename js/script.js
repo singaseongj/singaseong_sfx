@@ -1,4 +1,5 @@
 const audioPlayer = document.getElementById('audioPlayer');
+audioPlayer.loop = true;
 
 document.querySelectorAll('.sound-button').forEach(button => {
   button.addEventListener('click', () => {
@@ -21,4 +22,11 @@ document.getElementById('pauseBtn').addEventListener('click', () => {
 document.getElementById('stopBtn').addEventListener('click', () => {
   audioPlayer.pause();
   audioPlayer.currentTime = 0;
+});
+
+const loopToggleBtn = document.getElementById('loopToggleBtn');
+loopToggleBtn.textContent = 'Repeat: On';
+loopToggleBtn.addEventListener('click', () => {
+  audioPlayer.loop = !audioPlayer.loop;
+  loopToggleBtn.textContent = audioPlayer.loop ? 'Repeat: On' : 'Repeat: Off';
 });
