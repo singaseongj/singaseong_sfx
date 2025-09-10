@@ -53,3 +53,11 @@ body {
   opacity: 0.6;
   z-index: 1000;
 }
+
+#loopToggleBtn.on {
+  background-color: lightyellow;
+}
+
+#loopToggleBtn.off {
+  background-color: gray;
+}
