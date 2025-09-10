@@ -44,17 +44,18 @@ body {
 }
 
 #playBtn {
-  background-color: green;
-  color: white;
+  background-color: lightgreen;
+  color: black;
 }
 
 #pauseBtn {
-  background-color: yellow;
+  background-color: lemonchiffon;
+  color: black;
 }
 
 #stopBtn {
-  background-color: red;
-  color: white;
+  background-color: lightcoral;
+  color: black;
 }
 
 .home-button {
@@ -73,5 +74,5 @@ body {
 }
 
 #loopToggleBtn.off {
-  background-color: gray;
+  background-color: lightgray;
 }
