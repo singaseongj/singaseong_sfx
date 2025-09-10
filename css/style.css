@@ -43,6 +43,20 @@ body {
   min-height: 44px;
 }
 
+#playBtn {
+  background-color: green;
+  color: white;
+}
+
+#pauseBtn {
+  background-color: yellow;
+}
+
+#stopBtn {
+  background-color: red;
+  color: white;
+}
+
 .home-button {
   position: fixed;
   top: 10px;
